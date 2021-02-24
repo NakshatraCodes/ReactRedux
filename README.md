@@ -13,3 +13,15 @@ import { Provider } from "react-redux
 ```
 
 - Enclose the render calls in the **<Provider></Provider>** tags.
+
+```javascript
+return (
+  <Provider>
+    <Header />
+    <Body />
+    <Footer />
+  </Provider>
+);
+```
+
+- Create a Store
